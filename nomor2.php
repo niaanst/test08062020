@@ -14,7 +14,7 @@
 </form>
 <?php
 $angka = $_POST['angka'];
-for($a=1;$a<=$angka;$a++){ // perulangan 1 sampai 20
+for($a=1;$a<=$angka;$a++){ // perulangan 1 sampai angka inputan
     $k=0;
     for($b=1;$b<=$a;$b++){ // perulangan bilangan pembagi
         if($a % $b == 0){ // modulus
